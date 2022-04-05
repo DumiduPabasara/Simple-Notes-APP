@@ -1,3 +1,4 @@
+using Application.Core;
 using Application.Notes;
 using DataAccess;
 using MediatR;

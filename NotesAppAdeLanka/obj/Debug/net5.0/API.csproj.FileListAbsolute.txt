@@ -3,3 +3,4 @@ D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.Assemb
 D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.AssemblyInfo.cs
 D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
 D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.csproj.AssemblyReference.cache

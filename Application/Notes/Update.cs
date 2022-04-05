@@ -1,4 +1,5 @@
 ﻿using Application.Core;
+using AutoMapper;
 using DataAccess;
 using FluentValidation;
 using MediatR;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Application.Notes
 {
-    public class Create
+    public class Update
     {
         public class Command : IRequest<Result<Unit>>
         {
@@ -32,21 +33,27 @@ namespace Application.Notes
         {
 
             private readonly DataContext context;
+            private readonly IMapper mapper;
 
-            public Handler(DataContext context)
+            public Handler(DataContext context, IMapper mapper)
             {
                 this.context = context;
+                this.mapper = mapper;
             }
 
 
 
             public async Task<Result<Unit>> Handle(Command request, CancellationToken cancellationToken)
             {
-                context.Notes.Add(request.Note);
+                var note = await context.Notes.FindAsync(request.Note.Id);
+
+                if (note == null) return null;
+
+                mapper.Map(request.Note, note);
 
                 var result = await context.SaveChangesAsync() > 0;
 
-                if (!result) return Result<Unit>.Failure("Failed to create note !");
+                if (!result) return Result<Unit>.Failure("Failed to update activity");
 
                 return Result<Unit>.Success(Unit.Value);
             }

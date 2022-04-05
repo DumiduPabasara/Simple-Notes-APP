@@ -14,6 +14,7 @@ namespace Application.Core
         {
 
             //CreateMap<Domain.Notes, NotesDto>();
+            CreateMap<Domain.Notes, Domain.Notes>();
 
         }
     }
