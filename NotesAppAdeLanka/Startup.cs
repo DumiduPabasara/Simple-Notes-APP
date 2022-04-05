@@ -1,4 +1,6 @@
+using Application.Notes;
 using DataAccess;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -40,6 +42,9 @@ namespace NotesAppAdeLanka
             {
                 options.UseSqlite(configuration.GetConnectionString("SqliteConnection"));
             });
+
+            services.AddMediatR(typeof(List.Handler).Assembly);
+            services.AddAutoMapper(typeof(MappingProfiles).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

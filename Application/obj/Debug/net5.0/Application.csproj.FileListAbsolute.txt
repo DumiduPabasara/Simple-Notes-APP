@@ -1,17 +1,5 @@
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\Application.deps.json
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\Application.dll
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\ref\Application.dll
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\Application.pdb
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\DataAccess.dll
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\Domain.dll
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\DataAccess.pdb
-D:\freelance projects\AdeLanka Test\Application\bin\Debug\net5.0\Domain.pdb
 D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
 D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
 D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
 D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
-D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
-D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.dll
-D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\ref\Application.dll
-D:\freelance projects\AdeLanka Test\Application\obj\Debug\net5.0\Application.pdb
