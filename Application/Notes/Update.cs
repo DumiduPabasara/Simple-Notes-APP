@@ -19,12 +19,11 @@ namespace Application.Notes
             public Domain.Notes Note { get; set; }
         }
 
-        public class CommandValidator : AbstractValidator<Domain.Notes>
+        public class CommandValidator : AbstractValidator<Command>
         {
             public CommandValidator()
             {
-                RuleFor(x => x.Title).NotEmpty();
-                RuleFor(x => x.Description).NotEmpty();
+                RuleFor(x => x.Note).SetValidator(new NoteValidator());
             }
         }
 
@@ -53,7 +52,7 @@ namespace Application.Notes
 
                 var result = await context.SaveChangesAsync() > 0;
 
-                if (!result) return Result<Unit>.Failure("Failed to update activity");
+                if (!result) return Result<Unit>.Failure("Failed to update note");
 
                 return Result<Unit>.Success(Unit.Value);
             }

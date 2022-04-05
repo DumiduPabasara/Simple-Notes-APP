@@ -21,11 +21,19 @@ namespace API.Controllers
             return HandleResult(await Mediator.Send(new Create.Command { Note = note }));
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateNote(Domain.Notes note)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateNote(Guid id, Domain.Notes note)
         {
+            note.Id = id;
             return HandleResult(await Mediator.Send(new Update.Command { Note = note }));
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteNote(Guid id)
+        {
+            return HandleResult(await Mediator.Send(new Delete.Command { Id = id }));
+        }
+
 
     }
 }

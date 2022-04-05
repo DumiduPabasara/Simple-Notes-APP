@@ -43,7 +43,17 @@ namespace NotesAppAdeLanka
             {
                 options.UseSqlite(configuration.GetConnectionString("SqliteConnection"));
             });
-
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials()
+                    .WithOrigins("http://localhost:3000");
+                });
+            });
             services.AddMediatR(typeof(List.Handler).Assembly);
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
         }
