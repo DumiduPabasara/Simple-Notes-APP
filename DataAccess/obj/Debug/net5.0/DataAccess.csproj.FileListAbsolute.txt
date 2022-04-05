@@ -1,0 +1,15 @@
+D:\freelance projects\AdeLanka Test\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\freelance projects\AdeLanka Test\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\freelance projects\AdeLanka Test\DataAccess\bin\Debug\net5.0\ref\DataAccess.dll
+D:\freelance projects\AdeLanka Test\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\freelance projects\AdeLanka Test\DataAccess\bin\Debug\net5.0\Domain.dll
+D:\freelance projects\AdeLanka Test\DataAccess\bin\Debug\net5.0\Domain.pdb
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\freelance projects\AdeLanka Test\DataAccess\obj\Debug\net5.0\DataAccess.pdb
