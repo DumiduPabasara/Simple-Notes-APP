@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DYgBmj/CuzdCrAxe81llv4LSzaLVlD85TJOW6+vMb6aZNiKEANwZDtU+SzHT9vGRgyACN4y6Z4Ozl1FZgznsvQ==",
+  "dgSpecHash": "dxeENtyRFUxtcfSF/wHa0FColSAa2js0mAhK26r8sod7cIGD54Ph4wYgFEjdA6GyJRGnzclXDHVF7XLrrivUpA==",
   "success": true,
   "projectFilePath": "D:\\freelance projects\\AdeLanka Test\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dumidu\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Dumidu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\Dumidu\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\Dumidu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.11\\microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",

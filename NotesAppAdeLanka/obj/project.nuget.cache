@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "mDxTBEdwZoKi9TfmNeuuFt4pNGpl+2W3atWYtu/6YxpG7jfK9OwZtxsGC3QO5OOiDcN8I0I8xhlpV93DQWhMJg==",
+  "dgSpecHash": "mNnbpX6Nj96wLnYyjCkY6Weho0UDqfkc1hi8zHbpN358n4ZFO9QneiY2N2psVkklUrTdNGi7RWRmxgIm3HDXTw==",
   "success": true,
   "projectFilePath": "D:\\freelance projects\\AdeLanka Test\\NotesAppAdeLanka\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dumidu\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Dumidu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\Dumidu\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\Dumidu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Dumidu\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

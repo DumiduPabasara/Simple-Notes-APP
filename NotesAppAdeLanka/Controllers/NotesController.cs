@@ -15,5 +15,11 @@ namespace API.Controllers
             return HandleResult(await Mediator.Send(new List.Query { }));
         }
 
+        [HttpPost]
+        public async Task<IActionResult> CreateNote(Domain.Notes note)
+        {
+            return HandleResult(await Mediator.Send(new Create.Command { Note = note }));
+        }
+
     }
 }
