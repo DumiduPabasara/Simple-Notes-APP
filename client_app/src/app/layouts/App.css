@@ -1,0 +1,7 @@
+.App {
+  background-image: linear-gradient(
+    to left,
+    rgba(107, 181, 231, 0.822),
+    rgba(93, 84, 223, 0.863)
+  );
+}
