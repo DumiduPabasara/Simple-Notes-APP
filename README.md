@@ -1,5 +1,5 @@
 # SimpleNotesApp with CRUD
-Simple Note App with CRUD operations using ReactJS as Frontend and .NET5 as Backend 
+Simple Notes App with CRUD operations using ReactJS as Frontend and .NET5 as Backend 
 
 ###### Description
 This code project is to Demonstrate coding structures, best practices, design patterns and architectures used to develop maintainble and scalable software application.
