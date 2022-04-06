@@ -19,12 +19,16 @@ export default class NoteStore {
     } catch (err) {
       console.error(err);
     } finally {
-      this.loading = false;
+      runInAction(() => {
+        this.loading = false;
+      });
     }
   };
 
   private setNote = (note: Note) => {
-    this.noteRegistry.set(note.id, note);
+    runInAction(() => {
+      this.noteRegistry.set(note.id, note);
+    });
   };
 
   private getNote = (noteId: string) => {
@@ -40,7 +44,9 @@ export default class NoteStore {
     } catch (err) {
       console.error(err);
     } finally {
-      this.loading = false;
+      runInAction(() => {
+        this.loading = false;
+      });
     }
   };
 
@@ -52,12 +58,16 @@ export default class NoteStore {
     } catch (err) {
       console.error(err);
     } finally {
-      this.loading = false;
+      runInAction(() => {
+        this.loading = false;
+      });
     }
   };
 
   setSelectedNote = (id: string) => {
-    this.selectedNote = this.getNote(id);
+    runInAction(() => {
+      this.selectedNote = this.getNote(id);
+    });
   };
 
   deleteActivity = async (noteId: string) => {
@@ -70,7 +80,9 @@ export default class NoteStore {
     } catch (err) {
       console.error(err);
     } finally {
-      this.loading = false;
+      runInAction(() => {
+        this.loading = false;
+      });
     }
   };
 

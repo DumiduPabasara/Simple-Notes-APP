@@ -44,7 +44,6 @@ export default observer(function NoteList({
       functionParams: noteId,
     };
     handleClickOpenAlertDialog(alertObject);
-    console.log(alertObject);
   }
 
   return (

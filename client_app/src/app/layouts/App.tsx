@@ -9,6 +9,7 @@ import AppBarNav from "./AppBarNav";
 import "./App.css";
 import { AlertDialog } from "../model/alert";
 import AlertDialogComponent from "../common/alerts/AlertDialogComponent";
+import { Divider } from "@mui/material";
 
 function App() {
   const [open, setOpen] = React.useState(false);
@@ -43,9 +44,11 @@ function App() {
       <AppBarNav
         handleClickOpen={handleClickOpenNoteForm}
         setIsCreate={setIsCreate}
+        loading={loading}
       />
-      {loading ? <LinearProgressBar /> : null}
-      <Container fixed sx={{ backgroundColor: "blueviolet" }}>
+      <Divider sx={{ marginTop: 1 }} />
+      <Container fixed sx={{ backgroundColor: "blueviolet", marginTop: 7.5 }}>
+        {loading ? <LinearProgressBar /> : null}
         {noteRegistry.size > 0 ? (
           <NoteList
             handleClickOpen={handleClickOpenNoteForm}
@@ -67,8 +70,8 @@ function App() {
             handleCloseAlertDialog={handleCloseAlertDialog}
           />
         </>
+        {loading ? <LinearProgressBar /> : null}
       </Container>
-      {loading ? <LinearProgressBar /> : null}
     </div>
   );
 }

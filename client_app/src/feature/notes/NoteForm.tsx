@@ -28,7 +28,7 @@ export default observer(function NoteForm({
   const [editNote, setEditNote] = useState<Note | undefined>(undefined);
 
   const {
-    noteStore: { createNote, updateNote },
+    noteStore: { createNote, updateNote, setSelectedNote },
   } = useStore();
 
   function reset() {
@@ -61,13 +61,15 @@ export default observer(function NoteForm({
       handleClose();
     } else {
       if (editNote !== undefined) {
-        let updatedNote: Note = {
-          id: editNote.id,
-          title: title,
-          description: description,
-        };
-        updateNote(updatedNote);
-        reset();
+        if (editNote.title !== title || editNote.description !== description) {
+          let updatedNote: Note = {
+            id: editNote.id,
+            title: title,
+            description: description,
+          };
+          updateNote(updatedNote);
+        }
+        //reset();
         handleClose();
       } else {
         console.error("No edit note selected");
