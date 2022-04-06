@@ -72,3 +72,4 @@ D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.dll
 D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\ref\API.dll
 D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.pdb
 D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.genruntimeconfig.cache
+D:\freelance projects\AdeLanka Test\NotesAppAdeLanka\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
