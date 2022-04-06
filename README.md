@@ -1,4 +1,4 @@
-# SimpleNoteApp with CRUD
+# SimpleNotesApp with CRUD
 Simple Note App with CRUD operations using ReactJS as Frontend and .NET5 as Backend 
 
 ###### Description
