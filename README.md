@@ -2,7 +2,7 @@
 Simple Notes App with CRUD operations using ReactJS as Frontend and .NET5 as Backend 
 
 ###### Description
-This code project is to Demonstrate coding structures, best practices, design patterns and architectures used to develop maintainble and scalable software application.
+This code project is to Demonstrate coding structures, best practices, design patterns and architectures used to develop maintainble and scalable software application specially when using ReactJs+.NET5 technologies.
 
 ###### Used Technologies, Tools, Concepts, Architectures, Design Patterns
 - FrontEnd
